@@ -491,3 +491,254 @@ footer img {
 #marker {
     margin-top: 19px;
 }
+
+
+@media only screen and (max-width: 400px) {
+
+header {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+header p {
+    width: 64px;
+    height: 20px;
+    font-size: 24px;
+    color: #5863E3;
+    
+}
+
+header h1 {
+    width: 400px;
+    height: 112px;
+    font-size: 48px;
+    font-family: Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#fields {
+    padding-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    height: 298px;
+    flex-direction: column;
+}
+
+#first textarea  {
+    width: 345px;
+    height: 98px;
+    background-color: #F8F8F8;
+    border: 3px solid #D4D3D34D; 
+    font-size: 16px;
+
+}
+
+#second  {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#subject {
+    width: 280px;
+    height: 49px;
+    background-color: #F8F8F8;
+    border: 3px solid #D4D3D34D;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+#name {
+    width: 280px;
+    height: 49px;
+    background-color: #F8F8F8;
+    border: 3px solid #D4D3D34D;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+#email {
+    width: 280px;
+    height: 49px;
+    background-color: #F8F8F8;
+    border: 3px solid #D4D3D34D;
+    font-size: 14px;
+}
+
+
+#send {
+    width: 270px;
+    height: 59px;
+    background-color: #5968F4;
+    margin-left: 20px;
+    color: #FBFBFF;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    margin-top: 25px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#wreebi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.circle {
+    width: 28px;
+    height: 28px;
+    background-color: #5968F4;
+    border-radius: 100%;
+    display: flex;
+  
+}
+
+#konverti {
+    margin-left: 40px; 
+}
+
+#tele {
+    margin-left: 40px;
+}
+
+#map {
+    margin-left: 40px;
+}
+
+
+#icon1 {
+    font-size: 20px;
+}
+
+#icon2 {
+    font-size: 20px;
+}
+
+#icon3 {
+    font-size: 20px;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+#mail {
+    margin-top: 150px;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#phone {
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+#location {
+    margin-top: 16px;
+    flex-direction: column;
+}
+
+#mail h1 {
+    margin-left: 0px;
+    width: 54px;
+    height: 23px;
+    font-size: 14px;
+    color: #4E4D54;
+}
+
+#mail p {
+    margin-left: 0px;
+    width: 183px;
+    height: 17px;
+    font-size: 11px;
+    color: #99999A;
+    margin-top: 1px;
+}
+
+#mail h2 {
+   margin-left: 0px;
+   width: 226px;
+   height: 17px;
+   font-size: 11px;
+   color: #99999A;
+   margin-top: 1px;
+}
+
+
+#phone h1 {
+    margin-left: 10px;
+    width: 62px;
+    height: 23px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4E4D54;
+}
+
+#phone p {
+    margin-left: 10px;
+    width: 122px;
+    height: 17px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: #99999A;
+    margin-top: 1px;
+}
+
+#phone h2 {
+   margin-left: 10px;
+   width: 122px;
+   height: 17px;
+   font-family: Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 11px;
+   color: #99999A;
+   margin-top: 1px;
+}
+
+
+#location h1 {
+    margin-left: 10px;
+    width: 62px;
+    height: 23px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4E4D54;
+}
+
+#location p {
+    margin-left: 10px;
+    width: 163px;
+    height: 17px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: #99999A;
+    margin-top: 1px;
+}
+
+#location h2 {
+   margin-left: 10px;
+   width: 188px;
+   height: 17px;
+   font-family: Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 11px;
+   color: #99999A;
+   margin-top: 1px;
+}
+
+
+
+
+}
